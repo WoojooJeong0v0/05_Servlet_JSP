@@ -28,7 +28,7 @@ public class CompleteServlet extends HttpServlet {
 			
 			// session scope 객체 얻어오기
 			// session 얻은 이유 : redirect 할 때엔 req가 새로 만들어지기 때문에
-			// sesssin에 메시지 담아서 보낼 예쩌ㅓㅇ
+			// sesssin에 메시지 담아서 보낼 예정
 			HttpSession session = req.getSession();
 			
 			// 변경 성공 시

@@ -1,0 +1,28 @@
+div * {
+box-sizing: border-box;
+margin: 0px;
+border: 0px;
+padding: auto;
+display: flex;
+}
+
+.topMenu{
+  height: 50px;
+  background-color: #eb8484;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content{
+  align-items: center;
+  flex-grow: 1;
+}
+
+#memberList{
+  border-collapse: collapse;
+}
+
+#memberList td, #memberList th{
+  padding: 5px 8px;
+}

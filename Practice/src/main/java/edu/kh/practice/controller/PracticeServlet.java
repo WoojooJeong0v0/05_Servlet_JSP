@@ -33,7 +33,7 @@ public class PracticeServlet extends HttpServlet{
 		// 제출된 파라미터 얻어오기
 		String inputName = req.getParameter("inputName");
 		
-		// 입력된 이름이 nameList에 있는지 없는 확인
+		// 입력된 이름이 nameList에 있는지 없는지 확인
 		
 		// int List.indexOf("값") : 값과 일치하는 요소의 index 반환
 		//						    없으면 -1 반환
